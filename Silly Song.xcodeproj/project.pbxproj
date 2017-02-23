@@ -12,8 +12,6 @@
 		06BB82421E5E2F3D0018F1B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BB82401E5E2F3D0018F1B9 /* Main.storyboard */; };
 		06BB82441E5E2F3D0018F1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BB82431E5E2F3D0018F1B9 /* Assets.xcassets */; };
 		06BB82471E5E2F3D0018F1B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BB82451E5E2F3D0018F1B9 /* LaunchScreen.storyboard */; };
-		06BB82521E5E2F3D0018F1B9 /* Silly_SongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BB82511E5E2F3D0018F1B9 /* Silly_SongTests.swift */; };
-		06BB825D1E5E2F3D0018F1B9 /* Silly_SongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BB825C1E5E2F3D0018F1B9 /* Silly_SongUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		06BB82461E5E2F3D0018F1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06BB82481E5E2F3D0018F1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06BB824D1E5E2F3D0018F1B9 /* Silly SongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silly SongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06BB82511E5E2F3D0018F1B9 /* Silly_SongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silly_SongTests.swift; sourceTree = "<group>"; };
-		06BB82531E5E2F3D0018F1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06BB82581E5E2F3D0018F1B9 /* Silly SongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Silly SongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06BB825C1E5E2F3D0018F1B9 /* Silly_SongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silly_SongUITests.swift; sourceTree = "<group>"; };
-		06BB825E1E5E2F3D0018F1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				06BB823B1E5E2F3D0018F1B9 /* Silly Song */,
-				06BB82501E5E2F3D0018F1B9 /* Silly SongTests */,
-				06BB825B1E5E2F3D0018F1B9 /* Silly SongUITests */,
 				06BB823A1E5E2F3D0018F1B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,30 +91,20 @@
 			children = (
 				06BB823C1E5E2F3D0018F1B9 /* AppDelegate.swift */,
 				06BB823E1E5E2F3D0018F1B9 /* ViewController.swift */,
-				06BB82401E5E2F3D0018F1B9 /* Main.storyboard */,
-				06BB82431E5E2F3D0018F1B9 /* Assets.xcassets */,
-				06BB82451E5E2F3D0018F1B9 /* LaunchScreen.storyboard */,
-				06BB82481E5E2F3D0018F1B9 /* Info.plist */,
+				06BB826A1E5E2F9E0018F1B9 /* Supporting Files */,
 			);
 			path = "Silly Song";
 			sourceTree = "<group>";
 		};
-		06BB82501E5E2F3D0018F1B9 /* Silly SongTests */ = {
+		06BB826A1E5E2F9E0018F1B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				06BB82511E5E2F3D0018F1B9 /* Silly_SongTests.swift */,
-				06BB82531E5E2F3D0018F1B9 /* Info.plist */,
+				06BB82401E5E2F3D0018F1B9 /* Main.storyboard */,
+				06BB82451E5E2F3D0018F1B9 /* LaunchScreen.storyboard */,
+				06BB82431E5E2F3D0018F1B9 /* Assets.xcassets */,
+				06BB82481E5E2F3D0018F1B9 /* Info.plist */,
 			);
-			path = "Silly SongTests";
-			sourceTree = "<group>";
-		};
-		06BB825B1E5E2F3D0018F1B9 /* Silly SongUITests */ = {
-			isa = PBXGroup;
-			children = (
-				06BB825C1E5E2F3D0018F1B9 /* Silly_SongUITests.swift */,
-				06BB825E1E5E2F3D0018F1B9 /* Info.plist */,
-			);
-			path = "Silly SongUITests";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06BB82521E5E2F3D0018F1B9 /* Silly_SongTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06BB825D1E5E2F3D0018F1B9 /* Silly_SongUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
