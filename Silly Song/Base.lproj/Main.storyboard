@@ -48,13 +48,13 @@
                                         </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RRq-aL-p7R">
-                                        <rect key="frame" x="0.0" y="282" width="343" height="219"/>
-                                        <color key="textColor" red="1" green="0.26308098470000002" blue="0.79001998129999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="282" width="343" height="50"/>
+                                        <color key="textColor" red="0.38419793552676162" green="0.39260848445595853" blue="0.12365231950074024" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="35"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pe0-2w-4zG">
-                                        <rect key="frame" x="0.0" y="542" width="343" height="47"/>
+                                        <rect key="frame" x="0.0" y="373" width="343" height="216"/>
                                         <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="30"/>
                                         <state key="normal" title="Reset">
                                             <color key="titleColor" red="1" green="0.26308098470000002" blue="0.79001998129999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
