@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func createSong()
     {
         
-        guard (userNameTextField.text != nil) else
+        guard (userNameTextField.text != "") else
         {
             return
         }
